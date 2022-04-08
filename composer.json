@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monthly\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monthly\\Tests\\": "tests/"
+        }
+    }
+}
